@@ -21,7 +21,8 @@ public class RandomClass
         }
         
         Console.WriteLine("Разница между максимальным и минимальным элементами массива");
-        double min, max, rezult;
+        double max = 0, rezult = 0;
+        double min = array[i];
         for (int i = 0; i < array.Length; i++)
         {         
             if (max < array[i])
